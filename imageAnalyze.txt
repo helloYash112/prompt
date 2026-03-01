@@ -1,0 +1,61 @@
+Analyze the provided image and any visible overlay text.
+
+Extract and transcribe all visible text in the image (including watermarks, captions, banners, memes, and embedded text).
+Describe the visual content objectively (people, objects, actions, symbols, gestures, setting).
+Analyze the provided image and any overlay text according to the full Content Policy (Tier 1 / Tier 2 / Tier 3 framework).
+
+Step 1: Content Extraction
+
+Transcribe all visible overlay text exactly as written.
+
+Describe the visual content objectively (people, actions, symbols, setting, gestures).
+
+Step 2: Full Policy Review (Check ALL Tiers)
+
+Evaluate the content against:
+
+Tier 1 (Severe Violations),
+Tier 2 (Moderate Violations),
+Tier 3 (Minor / Sensitive Content)
+
+Do not stop after identifying one tier. Confirm that higher tiers do not apply before final classification.
+Step 3: Contextual Assessment
+Determine if the violation comes from:
+
+Visual elements
+
+Overlay text
+
+Combination of both
+
+Consider contextual exceptions (news, satire, awareness, educational content).
+
+Step 4: Final Classification
+
+Policy Tier Triggered: (Tier 1 / Tier 2 / Tier 3 / No Violation)
+
+Specific Policy Clause:
+
+Severity Level:
+
+Confidence Level: (Low / Medium / High)
+
+Step 5: Auditor Justification
+
+Provide 2–4 sentences explaining why this tier applies, referencing specific elements of the image or text.
+Illegal activities or promotion of harmful behavior
+Extremist content
+Determine whether the violation (if any) comes from:
+Visual elements
+Overlay text
+The combination of both (contextual harm)
+Classify the severity:
+No violation
+Mild / borderline
+Clear violation
+Severe violation
+Provide a brief justification referencing specific elements in the image or text.
+Recommend action:
+ignore
+label
+escalate
