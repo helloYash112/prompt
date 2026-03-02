@@ -7,7 +7,7 @@ If issue falls outside scope, state: “Outside selected policy scope.”
 Transcribe all visible text exactly.
 Briefly describe key visual elements (people/actions/symbols/setting).
 2️⃣ Tier Check (Top-Down Mandatory)
-Check in order:
+Check in from given Policy Name order:
 Tier 1
 Tier 2
 Tier 3
