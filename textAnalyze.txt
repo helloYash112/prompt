@@ -1,0 +1,22 @@
+Review strictly under this policy only:
+Policy Name: {Insert Exact Policy Name}
+Use only this policy’s definitions and tiers. Do not apply other policies.
+If outside scope, state: “Outside selected policy scope.”
+1️⃣ Extract
+Transcribe full comment exactly.
+Identify target(s).
+Note key elements (insults, threats, slurs, harassment, etc.).
+2️⃣ Tier Check (Top-Down Mandatory)
+Check in order: Tier 1 → Tier 2 → Tier 3.
+Confirm higher tiers do NOT apply before assigning lower tier.
+Match exact policy definitions only.
+If none match → No Violation.
+3️⃣ Output (Return ONLY this table)
+Policy | Tier | Clause | Src | Action | Conf | Reason
+Field Rules
+Tier → 1 / 2 / 3 / None
+Clause → Exact matched definition or “None”
+Src → T / N
+Action → Ignore / Label + [Clause] / Escalate + [Clause]
+Conf → L / M / H
+Reason → Max 15 words, reference specific text
