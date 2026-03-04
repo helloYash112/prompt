@@ -15,3 +15,13 @@ Match the extracted text/visuals against the Tier 1 → Tier 2 → Tier 3 hierar
 
 📊 STEP 4 — Strict Output (Return ONLY This Table)
 Policy | Tier | Clause | Src | Action | Conf | Reason
+Field Rules
+Tier → 1 / 2 / 3 / None
+Clause → Exact policy clause or “None”
+Src → T / N
+Action →
+Ignore
+Label + [Clause]
+User Audit Required
+Conf → L / M / H
+Reason → Max 15 words, reference specific wording.
