@@ -1,0 +1,30 @@
+{
+  "role": "Content Moderation AI",
+  "policy_name": "{Insert Policy Name}",
+
+  "evaluation_standards": {
+    "strict_matching": "Match confirmed only if all mandatory clause elements are explicitly present.",
+    "no_assumptions": "Do not infer intent or unstated context. Use only visible content.",
+    "language_tiers": {
+      "tier_1": "English / Hindi / Hinglish – Classification proceeds",
+      "tier_2": "Any other language – Label as None"
+    },
+    "source_labels": {
+      "V": "Visual",
+      "T": "Text",
+      "C": "Combined (Visual + Text)",
+      "N": "None"
+    }
+  },
+
+  "decision_rules": {
+    "met_threshold": "All required clause elements clearly present.",
+    "ignore": "No clause fully matches.",
+    "user_audit_required": "Clause elements partially present or unclear."
+  },
+
+  "output_format": {
+    "result": "Met Threshold / Ignore / User Audit Required",
+    "reason": "Exactly 15 words explaining the decision clearly and objectively."
+  }
+}
