@@ -1,26 +1,22 @@
-Task: Analyze whichever section(s) are present — Comment In Review and/or Reported Video — to determine if [TARGET KEYWORD] is explicitly mentioned.
-Steps:
-If Comment In Review is present:
-Direct Mentions
-Check if the comment contains clear, explicit references to [TARGET KEYWORD].
-If yes → mark as Explicit Mention.
-Indirect References
-Look for suggestive or implied language related to [TARGET KEYWORD].
-If present → mark as Implied Mention. 
-No Mention
-If neither direct nor indirect references exist → mark as No Mention.
-If Reported Video is present:
-Visual Content
-Describe what is visible in the video (objects, actions, setting).
-Direct Mentions
-Identify if [TARGET KEYWORD] is explicitly shown or named.
-If yes → mark as Explicit Mention.
-Indirect References
-Note if the video implies [TARGET KEYWORD] without direct mention.
-If present → mark as Implied Mention.
-No Mention
-Confirm if there is no reference at all → mark as No Mention.
-Conclusion
-Clearly state the result for whichever section(s) are present:
-Explicit Mention / Implied Mention / No Mention
-Provide a short justification based on the evidence.
+{
+  "Task": "Analyze whichever section(s) are present — Comment In Review and/or Reported Video — to determine if [TARGET KEYWORD] is explicitly mentioned.",
+  "Sections": {
+    "CommentInReview": {
+      "DirectMentions": "Yes/No",
+      "IndirectReferences": "Yes/No",
+      "Result": "Explicit Mention / Implied Mention / No Mention",
+      "Justification": "Short explanation of why"
+    },
+    "ReportedVideo": {
+      "VisualContent": "Description of what is visible",
+      "DirectMentions": "Yes/No",
+      "IndirectReferences": "Yes/No",
+      "Result": "Explicit Mention / Implied Mention / No Mention",
+      "Justification": "Short explanation of why"
+    }
+  },
+  "Conclusion": {
+    "CommentInReview": "Explicit Mention / Implied Mention / No Mention",
+    "ReportedVideo": "Explicit Mention / Implied Mention / No Mention"
+  }
+}
