@@ -1,0 +1,20 @@
+Task: Analyze the provided context (image, comment, thumbnail, handle name, and content) to determine if [TARGET KEYWORD] is explicitly mentioned.
+Steps:
+Image Analysis
+Describe what is visible.
+State if [TARGET KEYWORD] is explicitly identifiable or only implied.
+Comment Analysis
+Check for direct references to [TARGET KEYWORD].
+Note indirect references or suggestive language.
+Thumbnail Analysis
+Identify if the cropped image highlights [TARGET KEYWORD]-related elements.
+Clarify whether it reinforces or weakens the implication.
+Handle Name Analysis
+Look for terms connected to [TARGET KEYWORD].
+Decide if the name explicitly signals it or just suggests it.
+Content/Text Analysis
+Scan for direct mentions of [TARGET KEYWORD].
+Distinguish between explicit mentions and vague lifestyle references.
+Conclusion
+Clearly state: Yes, [TARGET KEYWORD] is explicitly mentioned OR No, [TARGET KEYWORD] is not explicitly mentioned.
+Support with evidence from the above points.
