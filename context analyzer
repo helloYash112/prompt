@@ -1,20 +1,26 @@
-Task: Analyze the provided context (image, comment, thumbnail, handle name, and content) to determine if [TARGET KEYWORD] is explicitly mentioned.
+Task: Analyze whichever section(s) are present — Comment In Review and/or Reported Video — to determine if [TARGET KEYWORD] is explicitly mentioned.
 Steps:
-Image Analysis
-Describe what is visible.
-State if [TARGET KEYWORD] is explicitly identifiable or only implied.
-Comment Analysis
-Check for direct references to [TARGET KEYWORD].
-Note indirect references or suggestive language.
-Thumbnail Analysis
-Identify if the cropped image highlights [TARGET KEYWORD]-related elements.
-Clarify whether it reinforces or weakens the implication.
-Handle Name Analysis
-Look for terms connected to [TARGET KEYWORD].
-Decide if the name explicitly signals it or just suggests it.
-Content/Text Analysis
-Scan for direct mentions of [TARGET KEYWORD].
-Distinguish between explicit mentions and vague lifestyle references.
+If Comment In Review is present:
+Direct Mentions
+Check if the comment contains clear, explicit references to [TARGET KEYWORD].
+If yes → mark as Explicit Mention.
+Indirect References
+Look for suggestive or implied language related to [TARGET KEYWORD].
+If present → mark as Implied Mention. 
+No Mention
+If neither direct nor indirect references exist → mark as No Mention.
+If Reported Video is present:
+Visual Content
+Describe what is visible in the video (objects, actions, setting).
+Direct Mentions
+Identify if [TARGET KEYWORD] is explicitly shown or named.
+If yes → mark as Explicit Mention.
+Indirect References
+Note if the video implies [TARGET KEYWORD] without direct mention.
+If present → mark as Implied Mention.
+No Mention
+Confirm if there is no reference at all → mark as No Mention.
 Conclusion
-Clearly state: Yes, [TARGET KEYWORD] is explicitly mentioned OR No, [TARGET KEYWORD] is not explicitly mentioned.
-Support with evidence from the above points.
+Clearly state the result for whichever section(s) are present:
+Explicit Mention / Implied Mention / No Mention
+Provide a short justification based on the evidence.
