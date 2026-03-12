@@ -1,0 +1,21 @@
+{
+  "title": "Online Gambling Determination",
+  "input": {
+    "game_name": "[Game Name]"
+  },
+  "prompt": "Is {{game_name}} considered online gambling?",
+  "answer_format": "Return a JSON object with keys: \"decision\" (\"Yes\" or \"No\"), \"reasons\" (array of concise reason strings referencing the definition criteria), and \"matched_criteria\" (array of criteria names that apply).",
+  "definition_criteria": [
+    "real_money_in_and_real_money_out",
+    "played_online",
+    "prizes_of_monetary_value",
+    "betting_or_lottery_or_raffle",
+    "casino_games",
+    "fantasy_sports",
+    "bingo",
+    "poker",
+    "skill_based_tournaments",
+    "pay_to_play_sweepstakes"
+  ],
+  "instructions": "Evaluate the game against each definition_criteria. If the game meets both \"real_money_in_and_real_money_out\" and \"played_online\" and at least one of the listed game types or prize conditions, set \"decision\" to \"Yes\". Otherwise set \"decision\" to \"No\". In \"reasons\", state which criteria are met or not met and why, in no more than two concise sentences."
+}
